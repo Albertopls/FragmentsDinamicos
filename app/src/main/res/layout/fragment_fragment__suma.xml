@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f56580"
+    tools:context="com.example.eduardopalacios.fragmentsdinamicos.Fragment_Suma">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Fragment Suma"
+            android:textColor="#ffffff"
+            android:textSize="30dp"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text1_suma"
+            android:layout_marginBottom="20dp"
+            android:hint="Introduce el primer valor"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text2_suma"
+            android:hint="Introduce el Segundo valor"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonSuma"
+            android:layout_marginTop="20dp"
+            android:text="Sumar"
+            android:textColor="#ffffff"
+            android:backgroundTint="#79adec"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</FrameLayout>
